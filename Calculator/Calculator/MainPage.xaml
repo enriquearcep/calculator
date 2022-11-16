@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+    <StackLayout>
+
+        <Label
+            FontSize="36"
+            HorizontalTextAlignment="Center"
+            Text="Welcome to Xamarin.Forms!"
+            />
+
+        <Entry
+            AutomationId="mailEntry"
+            Placeholder="Correo"
+            />
+        
+        <Entry
+            AutomationId="passwordEntry"
+            IsPassword="True"
+            Placeholder="Contraseña"
+            />
+
+        <Button
+            AutomationId="signInButton"
+            Clicked="Button_Clicked"
+            Text="Iniciar sesión"
+            />
+
+    </StackLayout>
+
+</ContentPage>
